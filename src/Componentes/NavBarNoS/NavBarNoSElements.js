@@ -1,0 +1,1 @@
+//Aca se debe importar styled-components
