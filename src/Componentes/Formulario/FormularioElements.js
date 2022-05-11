@@ -1,5 +1,11 @@
 import styled from 'styled-components'
 
+export const Label =styled.label`
+`
+
+export const Sel =styled.select`
+`
+
 export const Input = styled.input`
     background-color: white;
     padding: 0.5em;
@@ -24,15 +30,22 @@ export const Mensaje = styled.input`
 
 
 export const Button = styled.button`
-    background-color: #3864b4;
+    background-color: #3663B5;
     color: white;
     width: 14%;
+    text-align: center;
     box-shadow: 2px 2px 5px #999;
-    padding: 10px 40px;
+    padding: 10px 0px;
     border-radius: 20px;
-    margin: 0px 80px;
+    margin: 0px 40px;
+    border: 1px solid #3663B5;
     float: right;
     cursor: pointer;
+    &:hover{
+        transition: all .2s ease-in-out;
+        background: white;
+        color: #3663B5;
+    }
 `
 
 export const Form = styled.form`

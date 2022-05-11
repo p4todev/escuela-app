@@ -7,6 +7,8 @@ import {
   Button,
   Input,
   Mensaje,
+  Label,
+  Sel,
 } from './FormularioElements';
 
 const index = () => {
@@ -17,17 +19,16 @@ const index = () => {
     </Tab>
 
     <Form>
-    <label for="Profesor">Profesor</label>
-    <select id="Profesor" name="Profesor">
-      <option value="jose ramirez">Jose Ramires</option>
+    <Label for="Profesor">Profesor</Label>
+    <Sel id="Profesor" name="Profesor">
+    <option value="jose ramirez">Jose Ramires</option>
       <option value="felipe arias">Felipe Arias</option>
       <option value="marisa diaz">Marisa Diaz</option>
       <option value="javiera flores">Javiera Flores</option>
-    </select>
-    <br></br>
-    <label for="Asunto">Asunto</label>
+    </Sel>
+    <Label for="Asunto">Asunto</Label>
     <Input defaultValue="" type="text"/>
-    <label for="Mensaje">Mensaje</label>
+    <Label for="Mensaje">Mensaje</Label>
     <Mensaje defaultValue="" type="text"/>
     </Form>
 
