@@ -6,13 +6,15 @@ import
     CampDiv,
     Label,
     Input,
-    ButtonLogin
+    ButtonLogin,
+    P
 } from './LoginElements';
 
 
-
-
 const index = () => {
+
+  //TODO: HACER LOGIN RESPONSIVE
+
   return (
     <>
     <LoginContainer>
@@ -27,7 +29,9 @@ const index = () => {
                 <Input className="contrasena" id="contrasena"></Input>
             </CampDiv>
             <ButtonLogin to="/">ingresar</ButtonLogin>
+            <P>recupera tu contraseña haciendo click aqui!</P>
         </Form>
+      
     </LoginContainer>
     </>
   )
