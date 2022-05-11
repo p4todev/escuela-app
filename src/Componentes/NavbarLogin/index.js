@@ -5,14 +5,19 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBarLogo
+  NavBarLogo,
+  MobileIcon
 } from '../NavBarNoS/NavBarNoSElements';
+import {FaBars} from 'react-icons/fa';
 
 
 const index = () => {
   return (
   <Nav>
     <NavBarContainer>
+    <MobileIcon >
+        <FaBars/>
+    </MobileIcon>
     <NavBarLogo to='/'>EscuelaAPP</NavBarLogo>
       <NavMenu>
         <NavItem>

@@ -5,15 +5,21 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBarLogo
+  NavBarLogo,
+  MobileIcon
 } from './NavBarNoSElements';
+import {FaBars} from 'react-icons/fa';
 
 
-const index = () => {
+const index = ({toggle}) => {
+
   return (
   <Nav>
     <NavBarContainer>
-    <NavBarLogo to='/'>EscuelaAPP</NavBarLogo>
+    <NavBarLogo to='/' >EscuelaAPP</NavBarLogo>
+    <MobileIcon onClick={toggle} >
+        <FaBars/>
+    </MobileIcon>
       <NavMenu>
         <NavItem>
           <NavLinks>Inicio</NavLinks>
