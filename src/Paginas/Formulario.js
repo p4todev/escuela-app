@@ -1,14 +1,12 @@
 import React from 'react'
-import NavBarNoS from '../Componentes/NavBarNoS' 
+import Formulario from '../Componentes/Formulario' 
 
 const Inicio = () => {
   return (
-  
     <>
-        <NavBarNoS />
+        <Formulario />
     </>
     
   )
 }
-
 export default Inicio
