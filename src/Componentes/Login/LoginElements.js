@@ -16,7 +16,7 @@ export const LoginContainer = styled.div`
 export const Form = styled.div`
     height : 80vh;
     width : 60%;
-    margin: 0 auto;
+    margin: 15% auto;
 
 
 `
@@ -52,6 +52,7 @@ background : #3663B5;
 padding : 11px 13px;
 color : #fff;
 font-size : 17px;
+margin : 15px 0;
 outline : none;
 border : 1px solid #3663B5;
 cursor : pointer;
@@ -65,6 +66,13 @@ text-align : center;
     color :#3663B5 ;
 }
 
+`
+
+export const P = styled.p`
+    color : #3663B5;
+    cursor : pointer;
+    margin : 30px auto;
+    text-align : center;
 `
 
 

@@ -16,6 +16,20 @@ export const Nav = styled.nav`
     }
 ` 
 
+export const MobileIcon = styled.div`
+    display: none;
+    @media screen and (max-width : 768px){
+        display: block;
+        position : absolute;
+        top : 0;
+        right : 0;
+        transform : translate(-100%, 60%);
+        font-size : 1.7rem;
+        cursor : pointer;
+        color : #fff;
+    }
+`
+
 export const NavBarContainer = styled.div` 
     display : flex;
     justify-content : space-between;
