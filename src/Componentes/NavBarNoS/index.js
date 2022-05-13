@@ -31,7 +31,7 @@ const index = ({toggle}) => {
         <NavLinks>Docentes</NavLinks>
         </NavItem>
         <NavItem>
-        <NavLinks>Alumnos</NavLinks>
+        <NavLinks >Alumnos</NavLinks>
         </NavItem>
         <NavItem>
         <NavLinks>Contacto</NavLinks>
